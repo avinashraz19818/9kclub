@@ -261,6 +261,9 @@ function mw_fetch_reference_history(string $gameCode, int $pageNo = 1, int $page
     if ($cacheHit) return $memo[$cacheKey] = (is_array($cached) ? $cached : []);
     $response = mw_reference_request(mw_reference_history_url($gameCode));
     $rows = $response ? mw_reference_history_rows($response, $gameCode) : [];
+    if (le_is_wingo($gameCode) && count($rows) > 1) {
+        $rows = array_values(array_slice($rows, 1));
+    }
     mw_reference_cache_write('history:' . $cacheKey, $rows, $rows !== []);
     return $memo[$cacheKey] = $rows;
 }
@@ -277,6 +280,10 @@ function mw_fetch_reference_issue(string $gameCode): ?array
     if (!is_array($data) || !preg_match('/^[0-9]{12,24}$/', (string)($data['issueNumber'] ?? ''))) {
         mw_reference_cache_write($cacheKey, null, false);
         return null;
+    }
+    if (le_is_wingo($gameCode) && function_exists('le_calc_issue_number')) {
+        $refTime = !empty($data['startTime']) ? (int)intdiv((int)$data['startTime'], 1000) : time();
+        $data['issueNumber'] = le_calc_issue_number($gameCode, $refTime);
     }
     mw_reference_cache_write($cacheKey, $data, true);
     return $data;
