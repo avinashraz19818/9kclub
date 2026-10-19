@@ -1,0 +1,95 @@
+{"frames": {
+
+"s_c_1.png":
+{
+	"frame": {"x":0,"y":0,"w":400,"h":284},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":400,"h":284},
+	"sourceSize": {"w":400,"h":284}
+},
+"s_c_2.png":
+{
+	"frame": {"x":400,"y":0,"w":400,"h":284},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":400,"h":284},
+	"sourceSize": {"w":400,"h":284}
+},
+"s_c_3.png":
+{
+	"frame": {"x":800,"y":0,"w":400,"h":284},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":400,"h":284},
+	"sourceSize": {"w":400,"h":284}
+},
+"s_c_4.png":
+{
+	"frame": {"x":1200,"y":0,"w":400,"h":284},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":400,"h":284},
+	"sourceSize": {"w":400,"h":284}
+},
+"s_c_5.png":
+{
+	"frame": {"x":1600,"y":0,"w":400,"h":284},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":400,"h":284},
+	"sourceSize": {"w":400,"h":284}
+},
+"s_c_6.png":
+{
+	"frame": {"x":0,"y":284,"w":400,"h":284},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":400,"h":284},
+	"sourceSize": {"w":400,"h":284}
+},
+"s_c_7.png":
+{
+	"frame": {"x":400,"y":284,"w":400,"h":284},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":400,"h":284},
+	"sourceSize": {"w":400,"h":284}
+},
+"s_c_8.png":
+{
+	"frame": {"x":800,"y":284,"w":400,"h":284},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":400,"h":284},
+	"sourceSize": {"w":400,"h":284}
+},
+"s_c_9.png":
+{
+	"frame": {"x":1200,"y":284,"w":400,"h":284},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":400,"h":284},
+	"sourceSize": {"w":400,"h":284}
+},
+"s_c_10.png":
+{
+	"frame": {"x":1600,"y":284,"w":400,"h":284},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":400,"h":284},
+	"sourceSize": {"w":400,"h":284}
+}},
+"animations": {
+	"s_c": ["s_c_1.png","s_c_2.png","s_c_3.png","s_c_4.png","s_c_5.png","s_c_6.png","s_c_7.png","s_c_8.png","s_c_9.png","s_c_10.png"]
+},
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.1",
+	"image": "sc.png",
+	"format": "RGBA8888",
+	"size": {"w":2000,"h":568},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:c64da05c076c20f75b8929d8b90a1aab:e07cad0086ed19fc7685f82aacaf16ce:eab5a5ce8ef185d01dda7a1d06e6024d$"
+}
+}

@@ -1,0 +1,542 @@
+@charset "UTF-8";
+:root:root {
+  --van-primary-color: var(--main_color);
+  --van-tabbar-item-active-color: var(--main_color);
+  --van-tabbar-item-text-color: var(--text_color_L2);
+  --van-sidebar-text-color: var(--main-color);
+  --van-picker-background: var(--bg_color_L3);
+  --van-picker-option-text-color: var(--text_color_L2);
+  --van-picker-confirm-action-color: var(--main-color);
+  --van-checkbox-checked-icon-color: var(--main-color);
+  --van-checkbox-label-color: var(--text_color_L2);
+  --van-field-input-text-color: var(--text_color_L1);
+  --van-radio-checked-icon-color: var(--main-color);
+  --van-grid-item-content-background: var(--bg_color_L1);
+  --van-text-color: var(--text_color_L1);
+  --van-dialog-background: var(--bg_color_L2);
+  --van-circle-color: var(--main-color);
+  --van-circle-layer-color: var(--bg_color_L3);
+  --van-calendar-range-edge-background: var(--main-color);
+  --van-button-primary-background: var(--main_color);
+  --van-button-primary-border-color: var(--main-color);
+  --van-toast-text-color: var(--main-color);
+}
+
+.van-picker-column__item.van-picker-column__item--selected {
+  color: unset;
+}
+
+.van-skeleton .van-skeleton-title {
+  background: var(--text_inverse);
+  opacity: 0.1;
+}
+.van-skeleton .van-skeleton-paragraph {
+  background: var(--text_inverse);
+  opacity: 0.1;
+}
+
+:root {
+  --main_color: #FFD454;
+  --main_gradient_color: linear-gradient(180deg, #FFB42E 0%, #F2820F 100%);
+  --main_gradient_1: #FFB42E;
+  --main_gradient_2: #F2820F;
+  --gamesaas_ticket_bg1: #FA7;
+  --gamesaas_ticket_bg2: #F37021;
+  --secondary_color1: #FFE7D9;
+  --secondary_color2: #FFEDE3;
+  --secondary_color3: #D0621F;
+  --secondary_color4: #FFCFB2;
+  --secondary_color5: #F2AA4D;
+  --secondary_color6: linear-gradient(180deg, var(--gamesaas_ticket_bg1) 13.44%, var(--gamesaas_ticket_bg2) 86.56%);
+  --secondary_color7: linear-gradient(191deg, rgba(46, 56, 71, 0.8) 0%, rgba(32, 39, 51, 0) 100%);
+  --secondary_color8: linear-gradient(0deg, #FAD122 0%, #FBA133 100%);
+  --norm_red_color: #BE1414;
+  --norm_green_color: #0D9049;
+  --norm_bule_color: #2885FF;
+  --norm_orange_color: #FEAA57;
+  --norm_hint_color: #FFB028;
+  --button_dis: #CAD3DC;
+  --text_primary: #333333;
+  --text_white: #FFFFFF;
+  --text_secondary: #444444;
+  --text_tertiary: #EEB084;
+  --text_inverse: #FFFFFF;
+  --text_btn_main: #FFFFFF;
+  --text_disabled: #9CA6AE;
+  --text_placeholder: #F6C2A3;
+  --text_color_L1: var(--text_primary);
+  --text_color_L2: var(--text_secondary);
+  --text_color_L3: var(--text_tertiary);
+  --text_color_L4: var(--text_btn_main);
+  --share_page_display: flex;
+  --share_apps_display: contents;
+  --share_icons_order: 0;
+  --share_invite_order: 1;
+  --share_section_order: 2;
+  --save_image_order: 3;
+  --share_text_order: 3;
+  --share_title_color: var(--text_white);
+  --bg_color_L1: linear-gradient(180deg, #F58220 0%, #F37021 30%, #D9601A 100%);
+  --bg_color_L2: #FFFFFF;
+  --bg_color_L3: #FEF3EB;
+  --bg_color_L4: #FFDDC8;
+  --Stroke_color: #F4955B;
+  --Dividing_line_color: #E89D6B;
+  --home_stroke2: var(--Stroke_color);
+  --home_wheel: radial-gradient(45.65% 100% at 50% 0%, rgba(136, 136, 136, 0.70) 0%, var(--bg_color_L3) 100%);
+  --progress_bar: linear-gradient(270deg, #0FB800 0%, #00E668 100%);
+  --box_shadow_1: 0 3px 30px 0 rgba(99, 37, 0, 0.10);
+  --score-board-bg: linear-gradient(90deg, #4CD7FF 0%, #0979BF 100%);
+  --score-start-bar: linear-gradient(180deg,
+      #D79F4F 0%,
+      #FFFED0 30.77%,
+      #FFFFD8 60.1%,
+      #B07A4A 80.77%,
+      #C48241 100%);
+  --score-box-shadow: rgba(126, 255, 249, 0.5);
+  --score-box-glow: #1F619E;
+  --score-digit-color: linear-gradient(180deg,
+      #FBCD67 16.27%,
+      #E7BE6C 27.59%,
+      #FBF9C8 40.92%,
+      #F9F2A4 52.49%,
+      #C49954 62.03%,
+      #D29D4D 68.28%,
+      #FEE777 74.86%,
+      #BA8741 79.39%,
+      #B6672E 84.94%);
+  --champion1: #ECC731;
+  --champion2: #80B1F2;
+  --champion3: #C78672;
+  --champion-bg: #2E3847;
+  --tips-color: #555965;
+  --main-color: var(--main_color);
+  --main_gradient-color: var(--main_gradient_color);
+  --main_gradient-color2: linear-gradient(0deg, #FFCC48 0%, #F37021 100%);
+  --light-main_gradient-color: var(--main_gradient_color);
+  --norm_bule-color: var(--norm_bule_color);
+  --norm_red-color: var(--norm_red_color);
+  --norm_orange-color: var(--norm_orange_color);
+  --norm_green-color: var(--norm_green_color);
+  --norm_Purple_color: #B659FE;
+  --norm_Purple-color: var(--norm_Purple_color);
+  --norm_secondary-color: var(--norm_orange_color);
+  --Dividing-line_color: var(--Dividing_line_color);
+  --button_dis_color: var(--button_dis);
+  --sheet_nva_color: var(--main_color);
+  --Secondary_moto_Color9: #CA6C32;
+  --Secondary_moto_Color8: #FFEDDB;
+  --moto_header_bg_1: var(--main_gradient_1);
+  --moto_header_bg_2: var(--main_gradient_2);
+  --moto_btn_text: #A8A5A1;
+  --moto_btn_shadow: rgba(255, 255, 255, 0.2);
+  --moto_header_svg_height: auto;
+  --moto_record_gutter: 0.266667rem;
+  --moto_record_header_bleed: 0.266667rem;
+  --moto_record_header_cover: block;
+  --moto_card_bg: transparent;
+  --moto_record_body_bg: block;
+  --turntable-glow-color: var(--main_color);
+  --turntable_money_text_color: var(--text_primary);
+  /* 后台配的图（loginPageLogo）按 **通栏 banner** 显示，尺寸与 ar_saas13 保持一致：
+   * 脱离常规流贴 .login-header 左上角铺满 750x667 → 10rem x 8.89333rem。
+   * 图脱流后头部只剩导航条，所以要显式把头部高度给成 banner 高，并把导航提层，
+   * 否则返回/客服/语言会被图盖住点不到。
+   * ⚠️ 本文件不过 postcss-pxtorem，长度一律手写 rem（设计值 ÷ 75）。
+   * 登录页与注册页共用这一套（当前分支两页结构已统一）。
+   */
+  --login_logo_position: absolute;
+  --login_logo_top: 0;
+  --login_logo_left: 0;
+  --login_logo_width: 10rem;
+  --login_logo_height: 8.89333rem;
+  --login_logo_margin: 0;
+  --login_logo_object_fit: fill;
+  --login_header_height: 8.89333rem;
+  --login_head_position: relative;
+  --login_head_z_index: 1;
+  --login_header_margin_bottom: -1.86667rem;
+  --login_no_logo_margin_top: 0;
+  --game_card_bg: transparent;
+  --game_card_loading_bg: var(--secondary_color2);
+  --s12_home_bg: var(--bg_color_L1);
+  --s12_banner_shadow: rgba(175, 83, 0, 0.3);
+  --s12_dot_fill: linear-gradient(90deg, #E8741B 0%, #FFCC48 100%);
+  --s12_body_bg: var(--bg_color_L1);
+  --s12_body_border: #F37021;
+  --s12_body_shadow: rgba(175, 83, 0, 0.3);
+  --s12_body_bg_end: #D9601A;
+  --s12_nav_fallback: #D85E1B;
+  --s12_nav_bg: linear-gradient(180deg, #E56B28 0%, #A34C10 100%);
+  --s12_pill_bg: linear-gradient(103.28deg, #F37021 5.83%, #8E3606 94.17%);
+  --vip_tab_shadow: none;
+  --vip_tab_filter: drop-shadow(0 3px 5px rgba(99, 37, 0, 0.1));
+  --vip_tab_shadow_active:
+    inset 0 -4px 4px 0 rgba(252, 172, 2, 0.2),
+    inset 0 2px 0 0 rgba(255, 255, 255, 0.5);
+  --vip_tab_filter_active: drop-shadow(0 3px 5px rgba(61, 15, 15, 0.1));
+  --turntable_btn_text_from: #FFB42E;
+  --turntable_btn_text_to: #F2820F;
+  --turntable_btn_text_shadow: #663D1F;
+  /* 工单对话窗里的附件文件块（稿面 12020:124056 客服侧 / 12020:124064 自己侧）。
+     组件原来的取值在本主题下是 --main_color #FFD454 的字压 --secondary_color4 #FFCFB2 的底，
+     两者亮度完全相同（对比度 1.00:1），真机上等于看不见。稿面给的是：
+     文件名与图标 --text_primary、客服侧白底、自己侧 --secondary_color4 底 */
+  --workorder_file_color: var(--text_primary);
+  --workorder_file_bg_left: var(--bg_color_L2);
+  --workorder_file_bg_right: var(--secondary_color4);
+  /* 稿面里图标与文件名靠左排：内边距 14/20、间距 18。
+     组件原值是 padding-left 70 + justify-content:center 凑出来的居中，图标前空一大截 */
+  --workorder_file_justify: flex-start;
+  --workorder_file_padding: 0.18667rem 0.26667rem;
+  --workorder_file_gap: 0.24rem;
+  --s12_wheel_amount_stroke: #A30B0B;
+  --s12_pill_border: linear-gradient(103.28deg,
+      #FFF8CE 5.83%, #FDD900 27.92%, #F98202 50.29%, #FCAC02 72.32%, #AA7400 94.17%);
+  --s12_icon_btn_bg: linear-gradient(210deg, rgba(247, 152, 72, 0.4) 13.3%, rgba(214, 96, 25, 0.4) 86.5%);
+  --s12_icon_btn_inset: rgba(255, 255, 255, 0.5);
+  --s12_btn_border: #FBE357;
+  --s12_card_border: #BE5606;
+  --s12_notice_bg: rgba(255, 255, 255, 0.9);
+  --s12_notice_border: #EAF8FF;
+  --s12_notice_shadow: rgba(61, 58, 136, 0.3);
+  --s12_notice_btn_border: #FCAC02;
+  --s12_accent_orange: #F37021;
+  --s12_text_accent: #FC891F;
+  --s12_text_muted: #4F4F4F;
+  --s12_popular_glow_warm: #FFBA86;
+  --s12_popular_glow_cool: #E8EAFF;
+  --s12_title_gradient: linear-gradient(180deg, #FFCC48 0%, #F3AF00 45.1%, #F37021 90.19%, #FCAC02 140%);
+  --s12_pill_btn_bg: linear-gradient(180deg, #E1784D 0%, #CA5400 100%);
+  --s12_pill_btn_inset: rgba(255, 255, 255, 0.8);
+  --s12_pill_btn_text_shadow: rgba(0, 0, 0, 0.25);
+  --s12_week_card_tab_bg: #FFC9A7;
+  --s12_rank_gradient: linear-gradient(180deg, #FFD54B 0%, #E6B100 43.75%, #FF9900 100%);
+  --s12_cover_shadow: rgba(99, 37, 0, 0.3);
+  --s12_game_card_border: rgba(255, 255, 255, 0.5);
+  --s12_game_name_shadow: rgba(10, 19, 102, 0.4);
+  --s12_win_panel_bg: rgba(255, 255, 255, 0.9);
+  --s12_win_item_border: rgba(221, 113, 63, 0.5);
+  --s12_skeleton_shine: rgba(243, 112, 33, 0.22);
+  --s12_win_item_skeleton: rgba(221, 113, 63, 0.15);
+  --s12_chip_bg: #FFFFFF;
+  --s12_chip_bg_idle: rgba(255, 160, 90, 0.45);
+  --s12_search_bg: rgba(255, 255, 255, 0.1);
+  --s12_search_border: rgba(255, 255, 255, 0.5);
+  --s12_sub_bg: rgba(255, 255, 255, 0.9);
+  --s12_sub_inner_glow: rgba(255, 255, 255, 0.3);
+  --s12_sub_item_bg: rgba(255, 193, 94, 0.08);
+  --s12_sub_item_border: rgba(221, 113, 63, 0.7);
+  --s12_text_dark: #333333;
+  --s12_glass_bg: rgba(255, 255, 255, 0.2);
+  --s12_glass_inset: rgba(243, 112, 33, 0.5);
+  --s12_row_gradient: linear-gradient(270deg, #FFBA76 0%, #FF9D00 100%);
+  --s12_row_gradient_rtl: linear-gradient(90deg, #FFBA76 0%, #FF9D00 100%);
+  --s12_medal_1: linear-gradient(180deg, #FFD54B 0%, #E6B100 50.48%, #FF9900 100%);
+  --s12_medal_1_text: #692E00;
+  --s12_medal_2: linear-gradient(180deg, #EEF0FF 0%, #B8BEED 49.52%, #76799C 100%);
+  --s12_medal_2_text: #333547;
+  --s12_medal_3: linear-gradient(180deg, #FFA750 0%, #CD7F32 50%, #773B00 100%);
+  --s12_medal_3_text: #4E2700;
+  --s12_avatar_1: #CC8900;
+  --s12_avatar_2: #C9D0DA;
+  --s12_avatar_3: #C9824A;
+  --s12_avatar_1_glow: rgba(255, 194, 26, 0.25);
+  --s12_tab_text: #999999;
+  --special_dot_color: #F52E2E;
+  --s12_tab_shadow: rgba(110, 42, 0, 0.22);
+  --s12_welcome_title_gradient: linear-gradient(
+    180.267deg,
+    #FFF674 28.929%,
+    #FFAE3D 40.148%,
+    #B17A2A 46.173%,
+    #FFA32C 61.756%,
+    #FFF464 72.144%
+  );
+  --s12_welcome_headline: #FDCF93;
+  --s12_dialog_mask: rgba(0, 0, 0, 0.7);
+  --s12_dialog_shadow: #031124;
+  --s12_podium_1_text: linear-gradient(180deg, #F9BA0C 0%, rgba(255, 211, 89, 0.6) 100%);
+  --s12_podium_2_text: linear-gradient(180deg, #336BE2 0%, rgba(89, 136, 255, 0.6) 100%);
+  --s12_podium_3_text: linear-gradient(180deg, #F27532 0%, rgba(255, 128, 89, 0.6) 100%);
+  --s12_wheel_page_bg: #F9FAFE;
+  --s12_wheel_topbar_bg: #F58220;
+  --notice_list_bg: transparent;
+  --notice_tabs_bg: #F58220;
+  --notice_action_bar_bg: var(--s12_body_bg_end);
+  --notice_reward_req_text: var(--text_primary);
+  --category_tabs_pb: 0.32rem;
+  --category_tabs_margin: 0 auto -0.32rem;
+  --sj_no_more_line_height: 20px;
+  --allgames_search_bg: transparent;
+  /* Settings 弹窗（node 19847:283855 / 19847:283867）：只取稿面的颜色，尺寸间距不动 */
+  --settings_switch_track: var(--secondary_color1);
+  --settings_switch_node_bg: var(--main_gradient_color);
+  --settings_lang_color: var(--text_primary);
+  /* 日期选择组件未选中时的提示文字，走占位符口径（与同页搜索框的 placeholder 一致） */
+  --calendar_placeholder_color: var(--text_placeholder);
+  /* 合伙人页三行统计的值（Figma node 24982:15606 / 15607 / 15608）。
+     稿面这三支色都不等于主题的 norm_* token，故各自单列 */
+  --partner_invited_color: #ED9830;
+  --partner_effect_color: #18B660;
+  --partner_total_earned_color: #FB5B5B;
+  /* 规则表与底部说明合成一张白卡（稿面 node 24982:15629：白底、圆角 16、内边距 16、
+     两者间距 16）。白底与内边距由外层 .rule-block 承担，RuleTable 自身让位 */
+  --partner_rule_block_bg: var(--bg_color_L2);
+  --partner_rule_block_radius: 0.21333rem;
+  --partner_rule_block_padding: 0.21333rem;
+  --partner_rule_table_bg: transparent;
+  --partner_rule_table_padding: 0;
+  --partner_notes_margin_top: 0.21333rem;
+  --partner_rule_block_margin_top: 0.53333rem;
+  --partner_rule_margin_top: 0;
+}
+
+.box_shadow_1 {
+  box-shadow: var(--box_shadow_1);
+}
+
+.text_shadow {
+  text-shadow: 0 2px 1px rgba(0, 0, 0, 0.5);
+}
+
+.turntable_content > .scroll_num {
+  -webkit-text-stroke: 1px var(--s12_wheel_amount_stroke);
+  paint-order: stroke fill;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.weekCard .title {
+  background: var(--s12_week_card_tab_bg) !important;
+  box-shadow: none !important;
+}
+
+.page-wrapper .recharge-gift .gift-item div.gift-expired-time {
+  color: var(--text_secondary);
+}
+
+.btn_main_style {
+  background: var(--main_gradient_color);
+  box-shadow: 0 3px 10px 0 rgba(61, 15, 15, 0.1);
+}
+
+.btn_orange_style {
+  background: var(--norm_orange_color);
+}
+
+.btn_Secondary_style {
+  border-radius: 8px;
+  background: var(--bg_color_L3);
+  box-shadow: 0 3px 10px 0 rgba(99, 37, 0, 0.1), 0 2px 0 0 rgba(0, 0, 0, 0.1) inset;
+}
+
+.bottom_mix_style {
+  border-radius: 8px;
+  background: var(--bg_color_L2);
+  box-shadow: 0 2px 0 0 rgba(243, 249, 255, 0.45) inset, 0 -2px 12px 0 rgba(0, 0, 0, 0.12);
+}
+
+.bottom_nav_style {
+  border-radius: 8px;
+  background: var(--bg_color_L2);
+  box-shadow: 0 -2px 12px 0 rgba(0, 0, 0, 0.12);
+}
+
+:root,
+:root body {
+  background-color: #E9691C;
+}
+
+/* ===== 本主题的特殊化处理（作用域 = #app 上的 theme-ar_saas12）=====
+ * class 由 main.ts 跟着 useTheme().currentTheme 同步（主题运行时可切，不能用构建期 env）。
+ *
+ * 为什么需要这一段：本主题的 bg_color_L1 是渐变（规范 4265:55333），
+ * 而业务里若干处是用 「background-color: var(--bg_color_L1)」 吃它的 —— 渐变落不进 color 层。
+ * 两条常规路都不通：改共用文件会波及其它主题；主题文件里只写 「.login-wrapper」 这类
+ * 类名又压不过组件 scoped 的 [data-v-*]。
+ * 加上 #app 的主题 class 后两个问题一起解决：只在本主题命中（其它主题只是多一个
+ * 没有任何规则匹配的 class），且 (1,2,0) 的特异性足够压过 scoped 与 global 的 #app。
+ */
+#app.theme-ar_saas12 {
+  background-image: var(--bg_color_L1);
+  background-size: 100% 100%;
+}
+
+#app.theme-ar_saas12 .login-wrapper {
+  background-image: var(--bg_color_L1);
+  background-size: 100% 100%;
+}
+
+/* 邀请转盘页（稿面 19847:74934）。只改颜色，尺寸位置沿用组件原值。
+ * 组件各主题共用，靠 #app 的主题 class 提特异性压过它的 scoped 规则。
+ */
+#app.theme-ar_saas12 .ar_turntable_page {
+  background-color: var(--s12_wheel_page_bg);
+}
+#app.theme-ar_saas12 .ar_turntable_page .header:not(.sf-topbar) {
+  background: var(--s12_wheel_topbar_bg);
+}
+#app.theme-ar_saas12 .ar_turntable_page .turntable_content .cash_btn,
+#app.theme-ar_saas12 .ar_turntable_page .invite_btn {
+  text-shadow: 0 0.02667rem 0.01333rem rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0.04rem 0.13333rem 0 rgba(61, 15, 15, 0.1), inset 0 0.02667rem 0 0 rgba(255, 255, 255, 0.8);
+}
+
+#app.theme-ar_saas12 .rebate-provider-item svg {
+  display: block;
+}
+#app.theme-ar_saas12 .rebate-provider-item svg[fill="#86A1C0" i],
+#app.theme-ar_saas12 .rebate-provider-item svg [fill="#86A1C0" i],
+#app.theme-ar_saas12 .rebate-provider-item svg [fill="#F1F7FF" i],
+#app.theme-ar_saas12 .rebate-provider-item svg [fill="#B3BBD3" i] {
+  fill: var(--text_secondary);
+}
+#app.theme-ar_saas12 .rebate-provider-item svg [stroke="#86A1C0" i] {
+  stroke: var(--text_secondary);
+}
+
+/* 账变记录页（records/index）：列表穿透固定 tab 条。
+ * 组件的 tab 条用 「background-color: var(--bg_color_L1)」，本主题 L1 是渐变 → 透明，
+ * 整页滚动时列表会从 tab 条和 saffron 顶栏的底部圆角外侧透出来。
+ * 给 tab 条补任何底色都和页面渐变对不上（渐变随列表长度拉伸，滚动位置不同颜色不同），
+ * 所以反过来：页面定高一屏不再整页滚，列表在表头下方的区域内自己滚。
+ * tab 条保持透明，透出的就是真实页面底；列表也滚不到它和顶栏圆角后面。
+ * van-list 挂载时会向上找 overflow-y:auto 的祖先作为滚动容器，触底加载照常。
+ * 主题 CSS 不过 pxtorem，108 顶栏高按 ÷75 手写成 1.44rem。
+ * ⚠️ 必须带 .records-detail：earn/history 结构同名（.records / .records-wrapper），
+ * 但它「全部」tab 的列表不在 .records-wrapper 里，定高后会被裁掉。
+ */
+#app.theme-ar_saas12 .records.records-detail {
+  display: flex;
+  flex-direction: column;
+  height: calc(100vh - 1.44rem);
+  height: calc(100dvh - 1.44rem);
+  min-height: 0;
+}
+#app.theme-ar_saas12 .records.records-detail .records-wrapper {
+  flex: 1;
+  min-height: 0;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  scrollbar-width: none;
+}
+#app.theme-ar_saas12 .records.records-detail .records-wrapper::-webkit-scrollbar {
+  display: none;
+}
+#app.theme-ar_saas12 .records.records-detail {
+  /* 列表白底卡片（稿面 19847:282529）：距表头 24、左右 30、圆角 16，行内左 30 右 20，文字 24/28；
+   * 首行文字距卡顶 20，文字距分割线 20、分割线距下一行 24，末行文字距卡底 21，分割线左右各缩 20。
+   * 不改 DOM（组件各主题共用）：行直接是 van-list 的子节点，没有包裹层可以挂卡片，
+   * 所以由每行铺白底拼成卡片——首行带顶圆角，分割线画在「非首行」顶部，
+   * 卡片底边由紧跟末行的 van-list 自身节点（加载中 / 没有更多 / 触底占位）用 ::before 画出。
+   * 无数据时没有行，卡片自然不出现。主题 CSS 不过 pxtorem，按 ÷75 手写 rem。 */
+}
+#app.theme-ar_saas12 .records.records-detail .table-tr {
+  position: relative;
+  margin: 0 0.4rem;
+  padding: 0.6rem 0.26667rem 0 0.4rem;
+  border-bottom: none;
+  background: var(--bg_color_L2);
+  font-size: 0.32rem;
+  line-height: 0.37333rem;
+}
+#app.theme-ar_saas12 .records.records-detail .table-tr:first-child {
+  margin-top: 0.32rem;
+  padding-top: 0.26667rem;
+  border-radius: 0.21333rem 0.21333rem 0 0;
+}
+#app.theme-ar_saas12 .records.records-detail .table-tr + .table-tr::before {
+  content: "";
+  position: absolute;
+  top: 0.26667rem;
+  right: 0.26667rem;
+  left: 0.26667rem;
+  height: 1px;
+  background: var(--Dividing_line_color);
+}
+#app.theme-ar_saas12 .records.records-detail .table-tr .f {
+  flex: none;
+  width: 46.25%;
+  min-width: 0;
+  padding-right: 0.26667rem;
+}
+#app.theme-ar_saas12 .records.records-detail .table-tr .f .n {
+  display: block;
+}
+#app.theme-ar_saas12 .records.records-detail .table-tr .s {
+  flex: none;
+  width: 30%;
+  gap: 0.10667rem;
+}
+#app.theme-ar_saas12 .records.records-detail .table-tr .s p {
+  min-width: 0;
+  word-break: break-all;
+}
+#app.theme-ar_saas12 .records.records-detail .table-tr .t {
+  flex: 1;
+  width: auto;
+  min-width: 0;
+  word-break: break-all;
+  text-align: right;
+}
+#app.theme-ar_saas12 .records.records-detail .table-tr img {
+  flex-shrink: 0;
+  width: 0.32rem;
+  height: 0.32rem;
+}
+#app.theme-ar_saas12 .records.records-detail .table-tr + :not(.table-tr)::before {
+  content: "";
+  display: block;
+  height: 0.28rem;
+  margin: 0 0.4rem;
+  border-radius: 0 0 0.21333rem 0.21333rem;
+  background: var(--bg_color_L2);
+}
+#app.theme-ar_saas12 .records.records-detail .table-tr + .van-list__placeholder {
+  position: relative;
+}
+#app.theme-ar_saas12 .records.records-detail .table-tr + .van-list__placeholder::before {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+
+/* 提现历史页（wallet/withdraw/history，稿面 10244:57283）：吸顶的 tab 条与日期条。
+ * 组件给两条铺的是 「background: var(--bg_color_L1)」，本主题 L1 是渐变：
+ * 页面底的渐变随列表长度拉伸、随滚动移动，两条吸顶条却各自从头画一段，
+ * 结果未滚动时像叠了两层，滚动后和两侧留白（露出的页面底）颜色也对不上。
+ * 吸顶与布局都不动，只处理底色：
+ * 1. 本页的底改成钉在视口上的一整屏渐变（页面自身的渐变被它盖住）；
+ * 2. 两条吸顶条贴同一段视口渐变，按各自的吸顶位置偏移，和两侧留白始终是同一处颜色。
+ * 主题 CSS 不过 pxtorem：顶栏 108 → 1.44rem，日期条吸顶 top 188 → 2.50667rem。
+ */
+#app.theme-ar_saas12 .history-wrapper {
+  position: relative;
+  z-index: 0;
+}
+#app.theme-ar_saas12 .history-wrapper::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 50%;
+  z-index: -1;
+  width: 100%;
+  max-width: 10rem;
+  height: 100dvh;
+  transform: translateX(-50%);
+  background: var(--bg_color_L1);
+  pointer-events: none;
+}
+#app.theme-ar_saas12 .history-wrapper > .header,
+#app.theme-ar_saas12 .history-wrapper > .info {
+  background: var(--bg_color_L1) no-repeat;
+  background-size: 100% 100dvh;
+}
+#app.theme-ar_saas12 .history-wrapper > .header {
+  background-position: 0 -1.44rem;
+  z-index: 10;
+}
+#app.theme-ar_saas12 .history-wrapper > .info {
+  background-position: 0 -2.50667rem;
+}

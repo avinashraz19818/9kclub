@@ -1,0 +1,131 @@
+:root:root {
+    --van-primary-color: var(--main_color);
+    --van-tabbar-item-active-color: var(--main_color);
+    --van-tabbar-item-text-color: var(--text_color_L2);
+    --van-sidebar-text-color: var(--main-color);
+    --van-picker-background: var(--bg_color_L3);
+    --van-picker-option-text-color: var(--text_color_L2);
+    --van-picker-confirm-action-color: var(--main-color);
+    --van-checkbox-checked-icon-color: var(--main-color);
+    --van-checkbox-label-color: var(--text_color_L2);
+    --van-field-input-text-color: var(--text_color_L1);
+    --van-radio-checked-icon-color: var(--main-color);
+    --van-grid-item-content-background: var(--bg_color_L1);
+    --van-text-color: var(--text_color_L1);
+    --van-dialog-background: var(--bg_color_L2);
+    --van-circle-color: var(--main-color);
+    --van-circle-layer-color: var(--bg_color_L3);
+    --van-calendar-range-edge-background: var(--main-color);
+    --van-button-primary-background: var(--main_color);
+    --van-button-primary-border-color: var(--main-color);
+    --van-toast-text-color: var(--main-color);
+}
+
+.van-picker-column__item.van-picker-column__item--selected {
+    color: unset;
+}
+
+:root {
+    --main_color: #FD6B6B;
+    --main_gradient_color: linear-gradient(10.43deg, #CE212C 14.69%, #E52F38 85.31%);
+    --main_gradient_1: #E52F38;
+    --main_gradient_2: #CE212C;
+    --secondary_color1: #E3D1D2;
+    --secondary_color2: #614A4A;
+    --secondary_color3: #E75158;
+    --secondary_color4: #FBCCCE;
+    --secondary_color5: #D7A3A6;
+    --secondary_color6: #5A2729;
+    --secondary_color7: linear-gradient(182deg, rgba(0, 0, 0, 0.06) 6.14%, rgba(0, 0, 0, 0) 99.42%);
+    --secondary_color8: linear-gradient(0deg, #FBA133 0%, #FAD122 100%);
+    --norm_red_color: #FB5B5B;
+    --norm_green_color: #18B660;
+    --norm_blue_color: #6EA8F4;
+    --norm_orange_color: #FEAA57;
+    --norm_hint_color: #F89131;
+    --button_dis: #533E3F;
+    --norm_Purple_color: #B659FE;
+    --text_primary: #FFFFFF;
+    --text_secondary: #C3C9D6;
+    --text_tertiary: #7B7373;
+    --text_inverse: #FFFFFF;
+    --text_btn_main: #FFFFFF;
+    --text_disabled: #7C6263;
+    --text_placeholder: #7C7C7C;
+    --text_color_L1: var(--text_primary);
+    --text_color_L2: var(--text_secondary);
+    --text_color_L3: var(--text_tertiary);
+    --text_color_L4: var(--text_btn_main);
+    --bg_color_L1: #171717;
+    --bg_color_L2: #282828;
+    --bg_color_L3: #3B3B3B;
+    --bg_color_L4: #5B5B5B;
+    --Stroke_color: #464548;
+    --Dividing_line_color: #454545;
+    --progress_bar: linear-gradient(270deg, #F8A956 0%, #D4762A 100%);
+    --box_shadow_1: 0 4px 4px 0 rgba(3, 17, 36, 0.13);
+    --score-board-bg: linear-gradient(0deg, #4CD7FF 0%, #0979BF 100%);
+    --score-start-bar: linear-gradient( 180deg, #D79F4F 0%, #FFFED0 30.77%, #FFFFD8 60.1%, #B07A4A 80.77%, #C48241 100%);
+    --score-box-shadow: rgba(126, 255, 249, 0.5);
+    --score-box-glow: #1F619E;
+    --score-digit-color: linear-gradient( 180deg, #FBCD67 16.27%, #E7BE6C 27.59%, #FBF9C8 40.92%, #F9F2A4 52.49%, #C49954 62.03%, #D29D4D 68.28%, #FEE777 74.86%, #BA8741 79.39%, #B6672E 84.94%);
+    --champion1: #ECC731;
+    --champion2: #80B1F2;
+    --champion3: #C78672;
+    --champion-bg: #5A2729;
+    --tips-color: #785F60;
+    --text_color_L1: var(--text_primary);
+    --text_color_L4: var(--text_btn_main);
+    --main_gradient-color: var(--main_gradient_color);
+    --norm_bule-color: var(--norm_blue_color);
+    --norm_red-color: var(--norm_red_color);
+    --norm_orange-color: var(--norm_orange_color);
+    --norm_green-color: var(--norm_green_color);
+    --norm_Purple-color: var(--norm_Purple_color);
+    --norm_secondary-color: var(--norm_orange_color);
+    --sheet_nva_color: var(--main_color);
+    --light-main_gradient-color: var(--main_gradient_color);
+    --text_color_L2: var(--text_tertiary);
+    --main-color: var(--main_color);
+    --main_gradient-color2: linear-gradient(0deg, #CE212C 0%, #E52F38 0%);
+    --Dividing-line_color: var(--Dividing_line_color);
+    --button_dis_color: var(--button_dis);
+    --Secondary_moto_Color9: #E45353;
+    --Secondary_moto_Color8: #542E2E;
+    --turntable-glow-color: #F15542;
+}
+
+.box_shadow_1 {
+    box-shadow: var(--box_shadow_1);
+}
+
+.text_shadow {
+    text-shadow: 0 2px 1px rgba(0, 0, 0, 0.5);
+}
+
+.btn_main_style {
+    background: var(--main_gradient_color, linear-gradient(10.43deg, #CE212C 14.69%, #E52F38 85.31%));
+    box-shadow: 0 4px 8px 0 rgba(61, 49, 15, 0.25), 0 2px 0 0 rgba(255, 255, 255, 0.5) inset, 0 -4px 4px 0 rgba(0, 0, 0, 0.2) inset;
+}
+
+.btn_orange_style {
+    background: var(--norm_orange_color);
+}
+
+.btn_Secondary_style {
+    border-radius: 8px;
+    background: var(--bg_color_L1, #171717);
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25), 0 2px 0 0 rgba(70, 69, 72, 0.9) inset;
+}
+
+.bottom_mix_style {
+    border-radius: 8px;
+    background: var(--bg_color_L2, #282828);
+    box-shadow: 0 2px 0 0 rgba(255, 252, 243, 0.45) inset, 0 -2px 12px 0 rgba(0, 0, 0, 0.12);
+}
+
+.bottom_nav_style {
+    border-radius: 8px;
+    background: var(--bg_color_L2, #282828);
+    box-shadow: 0 2px 0 0 #772608 inset, 0 -2px 12px 0 rgba(0, 0, 0, 0.12);
+}

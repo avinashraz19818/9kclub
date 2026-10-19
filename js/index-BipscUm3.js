@@ -1,0 +1,1 @@
+import{z as n,a as r,I as s}from"./zhuanpan-D9EQiska.js";import{ay as o,al as t,am as c,aE as a}from"./index-B1XFFMfj.js";const i=o({__name:"index",setup(m){return(p,_)=>{const e=s;return c(),t(e,{width:145,height:145,src:a(r),"blur-src":a(n)},null,8,["src","blur-src"])}}});export{i as default};

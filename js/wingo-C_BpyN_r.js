@@ -1,0 +1,1 @@
+import{au as e}from"./index-B1XFFMfj.js";function n(t){return e.post("/Lottery/WinGoBet",t)}function r(t){return e.post("/Lottery/WinGoBatchBet",t)}function i(t){return e.post("/Lottery/VideoWinGoBet",t)}export{i as a,n as b,r as g};

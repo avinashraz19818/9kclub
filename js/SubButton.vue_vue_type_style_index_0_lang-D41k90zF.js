@@ -1,0 +1,1 @@
+import{ay as n,aL as o,am as i,aG as r,aO as m}from"./index-B1XFFMfj.js";const c={class:"pay-btn"},_=n({__name:"SubButton",props:{text:{type:String,default:""}},emits:["submit"],setup(e,{emit:s}){const a=s;return(p,t)=>(i(),o("section",c,[r("div",{class:"red-btn",onClick:t[0]||(t[0]=l=>a("submit"))},m(e.text),1)]))}});export{_};

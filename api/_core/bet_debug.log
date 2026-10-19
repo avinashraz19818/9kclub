@@ -1,0 +1,6 @@
+2026-10-19 16:09:24 PAYLOAD: {"gameCode":"WinGo_30S","issueNumber":"20261019100051279","amount":1,"betMultiple":1,"betContent":"Num_0","language":"en","random":342467040750,"signature":"599DF5E64521DDAAD9EE17417A6D4E91","timestamp":1792406364}
+2026-10-19 16:09:32 EXTRACT_CHOICE IN: Num_0 OUT: {"kind":"number","value":"0"}
+2026-10-19 16:09:32 EXTRACT_CHOICE IN: Num_0 OUT: {"kind":"number","value":"0"}
+2026-10-19 16:09:42 PAYLOAD: {"gameCode":"WinGo_30S","issueNumber":"20261019100051280","amount":10,"betMultiple":1,"betContent":"Color_Green","language":"en","random":990812037645,"signature":"F0BAB85A2E8CC6FFBFED5454420DCC32","timestamp":1792406382}
+2026-10-19 16:10:10 EXTRACT_CHOICE IN: Color_Green OUT: {"kind":"color","value":"green"}
+2026-10-19 16:10:10 EXTRACT_CHOICE IN: Color_Green OUT: {"kind":"color","value":"green"}

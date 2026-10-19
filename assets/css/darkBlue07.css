@@ -1,0 +1,135 @@
+@charset "UTF-8";
+:root:root {
+    --van-primary-color: var(--main_color);
+    --van-tabbar-item-active-color: var(--main_color);
+    --van-tabbar-item-text-color: var(--text_color_L2);
+    --van-sidebar-text-color: var(--main-color);
+    --van-picker-background: var(--bg_color_L3);
+    --van-picker-option-text-color: var(--text_color_L2);
+    --van-picker-confirm-action-color: var(--main-color);
+    --van-checkbox-checked-icon-color: var(--main-color);
+    --van-checkbox-label-color: var(--text_color_L2);
+    --van-field-input-text-color: var(--text_color_L1);
+    --van-radio-checked-icon-color: var(--main-color);
+    --van-grid-item-content-background: var(--bg_color_L1);
+    --van-text-color: var(--text_color_L1);
+    --van-dialog-background: var(--bg_color_L2);
+    --van-circle-color: var(--main-color);
+    --van-circle-layer-color: var(--bg_color_L3);
+    --van-calendar-range-edge-background: var(--main-color);
+    --van-button-primary-background: var(--main_color);
+    --van-button-primary-border-color: var(--main-color);
+    --van-toast-text-color: var(--main-color);
+}
+
+.van-picker-column__item.van-picker-column__item--selected {
+    color: unset;
+}
+
+:root {
+    /* ================= 主色 ================= */
+    --main_color: #CCE035;
+    --main_gradient_color: linear-gradient(180deg, #CCE035 0%, #CCE035 100%);
+    --main_gradient_1: #CCE035;
+    --main_gradient_2: #CCE035;
+    /* ================= 辅助色 ================= */
+    --secondary_color1: #4C476D;
+    --secondary_color2: #4D4576;
+    --secondary_color3: #6751E7;
+    --secondary_color4: #D3CCFB;
+    --secondary_color5: #A198D3;
+    /* 设计稿：#2E3B47 80% + #202733 0% */
+    /* 装饰纹理层 */
+    --secondary_color7: linear-gradient( 11deg, #2E3847 80%, #202733 0%);
+    /* 二级按钮渐变 */
+    --secondary_color8: linear-gradient(0deg, #FAD122 0%, #FBA133 100%);
+    /* ================= 功能色 ================= */
+    --norm_red_color: #FB5B5B;
+    --norm_green_color: #18B660;
+    --norm_blue_color: #6EA8F4;
+    --norm_orange_color: #DEB86C;
+    --norm_Purple_color: #B659FE;
+    --norm_hint_color: #FDB328;
+    /* 设计稿值 */
+    --button_dis: #413E53;
+    /* ================= 文字 ================= */
+    --text_primary: #FFFFFF;
+    --text_secondary: #C7C5D1;
+    --text_tertiary: #867EB3;
+    --text_inverse: #FFFFFF;
+    --text_btn_main: #0F1259;
+    --text_disabled: #9CA6AE;
+    --text_placeholder: #9F9CAE;
+    /* ================= 背景 ================= */
+    --bg_color_L1: #0B023C;
+    --bg_color_L2: #1C144A;
+    --bg_color_L3: #29224D;
+    --bg_color_L4: #342D5D;
+    /* ================= 结构 ================= */
+    --Stroke_color: #2F275A;
+    --Dividing_line_color: #4E496B;
+    --home_stroke2: #244CD0;
+    --home_wheel: radial-gradient(45.65% 100% at 50% 0%, rgba(33, 33, 36, 0.70) 0%, #080F28 100%);
+    /* ================= 进度条 ================= */
+    --progress_bar: linear-gradient(270deg, #FFD862 0%, #FF6D33 100%);
+    /* ================= Jackpot ================= */
+    --score-board-bg: linear-gradient(90deg, #4CD7FF 0%, #0979BF 100%);
+    --score-start-bar: linear-gradient( 180deg, #D79F4F 0%, #FFFED0 30.77%, #FFFFD8 60.1%, #B07A4A 80.77%, #C48241 100%);
+    --score-box-shadow: rgba(126, 255, 249, 0.5);
+    --score-box-glow: #1F619E;
+    --score-digit-color: linear-gradient( 180deg, #FBCD67 16.27%, #E7BE6C 27.59%, #FBF9C8 40.92%, #F9F2A4 52.49%, #C49954 62.03%, #D29D4D 68.28%, #FEE777 74.86%, #BA8741 79.39%, #B6672E 84.94%);
+    --champion1: #ECC731;
+    --champion2: #80B1F2;
+    --champion3: #C78672;
+    --champion-bg: #2E3847;
+    --tips-color: #555965;
+    --text_color_L1: var(--text_primary);
+    --text_color_L4: var(--text_btn_main);
+    --main_gradient-color: var(--main_gradient_color);
+    --norm_bule-color: var(--norm_blue_color);
+    --norm_red-color: var(--norm_red_color);
+    --norm_orange-color: var(--norm_orange_color);
+    --norm_green-color: var(--norm_green_color);
+    --norm_Purple-color: var(--norm_Purple_color);
+    --norm_secondary-color: var(--norm_orange_color);
+    --sheet_nva_color: var(--main_color);
+    --light-main_gradient-color: var(--main_gradient_color);
+    --text_color_L2: var(--text_tertiary);
+    --main-color: var(--main_color);
+    --main_gradient-color2: linear-gradient(0deg, #CCE035 0%, #CCE035 100%);
+    --Dividing-line_color: var(--Dividing_line_color);
+    --button_dis_color: var(--button_dis);
+    --Secondary_moto_Color9: #B8CA32;
+    --Secondary_moto_Color8: #50542E;
+    --turntable-glow-color: #F15542;
+}
+
+.box_shadow_1 {
+    box-shadow: 0 4px 4px 0 rgba(3, 17, 36, 0.13);
+}
+
+.text_shadow {
+    text-shadow: 0 2px 1px 0 rgba(0, 0, 0, 0.5);
+}
+
+.btn_main_style {
+    background: var(--main_gradient_color, linear-gradient(97deg, #CCE035 21.18%, #CCE035 78.82%));
+    box-shadow: 0 -4px 4px 0 rgba(0, 0, 0, 0.2) inset;
+}
+
+.btn_orange_style {
+    background: var(--norm_orange_color);
+}
+
+.btn_Secondary_style {
+    background: var(--bg_color_L1, #0B023C);
+}
+
+.bottom_mix_style {
+    background: var(--bg_color_L2, #1C144A);
+}
+
+.bottom_nav_style {
+    background: var(--bg_color_L2, #1C144A);
+    box-shadow: 0 2px 0 0 #772608 inset, 0 -2px 12px 0 rgba(0, 0, 0, 0.12);
+}

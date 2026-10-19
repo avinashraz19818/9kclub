@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" overflow="visible" style="display: block;" width="71" height="71" viewBox="0 0 71 71" fill="none">
+<g id="Frame 2087326334">
+<rect width="71" height="71" rx="20" fill="#3C4754"/>
+<ellipse id="ç¼ç" cx="4.55387" cy="5.70017" rx="4.55387" ry="5.70017" transform="matrix(-0.987531 -0.157424 -0.212754 0.977106 32.4196 18.4338)" fill="#F97316"/>
+<ellipse id="ç¼ç_2" cx="4.42634" cy="5.53795" rx="4.42634" ry="5.53795" transform="matrix(-0.988873 -0.148761 -0.202398 0.979303 50.6853 18.8684)" fill="#F97316"/>
+<g id="å´">
+<path id="Vector 687" d="M26.1715 33.605L43.9863 33.0972C45.718 33.0478 47.1666 34.4402 46.9842 36.163C46.2551 43.05 42.7947 51.7431 30.7113 52.1009C20.0982 50.4056 21.2843 40.9719 23.5967 35.3094C24.0208 34.271 25.0503 33.637 26.1715 33.605Z" fill="#F97316"/>
+<g id="å´_2">
+<mask id="mask0_0_4" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="22" y="33" width="23" height="20">
+<path id="Vector 688" d="M30.7109 52.1012C23.5345 50.9548 21.753 46.2704 22.0666 41.6061C22.411 36.4837 27.5419 33.5662 32.6738 33.4199C40.6002 33.194 48.0529 40.4502 43.0728 46.6209C40.6046 49.6792 36.7262 51.923 30.7109 52.1012Z" fill="#F95959"/>
+</mask>
+<g mask="url(#mask0_0_4)">
+<ellipse id="Ellipse 1443" cx="15.8132" cy="9.19102" rx="15.8132" ry="9.19102" transform="matrix(-0.987305 -0.158837 -0.215817 0.976434 46.339 44.6977)" fill="url(#paint0_linear_0_4)"/>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<linearGradient id="paint0_linear_0_4" x1="15.8132" y1="5.11356e-07" x2="15.8132" y2="18.382" gradientUnits="userSpaceOnUse">
+<stop stop-color="#FFAF2D"/>
+<stop offset="1" stop-color="#F97316"/>
+</linearGradient>
+</defs>
+</svg>

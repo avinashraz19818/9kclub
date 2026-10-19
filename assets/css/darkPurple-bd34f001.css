@@ -1,0 +1,129 @@
+:root:root {
+    --van-primary-color: var(--main_color);
+    --van-tabbar-item-active-color: var(--main_color);
+    --van-tabbar-item-text-color: var(--text_color_L2);
+    --van-sidebar-text-color: var(--main-color);
+    --van-picker-background: var(--bg_color_L3);
+    --van-picker-option-text-color: var(--text_color_L2);
+    --van-picker-confirm-action-color: var(--main-color);
+    --van-checkbox-checked-icon-color: var(--main-color);
+    --van-checkbox-label-color: var(--text_color_L2);
+    --van-field-input-text-color: var(--text_color_L1);
+    --van-radio-checked-icon-color: var(--main-color);
+    --van-grid-item-content-background: var(--bg_color_L1);
+    --van-text-color: var(--text_color_L1);
+    --van-dialog-background: var(--bg_color_L2);
+    --van-circle-color: var(--main-color);
+    --van-circle-layer-color: var(--bg_color_L3);
+    --van-calendar-range-edge-background: var(--main-color);
+    --van-button-primary-background: var(--main_color);
+    --van-button-primary-border-color: var(--main-color);
+    --van-toast-text-color: var(--main-color);
+}
+
+.van-picker-column__item.van-picker-column__item--selected {
+    color: unset;
+}
+
+:root {
+    --main_color: #E3B745;
+    --main_gradient_color: linear-gradient(180deg, #FFD35C 0%, #BF8307 100%);
+    --main_gradient_1: #FFD35C;
+    --main_gradient_2: #BF8307;
+    --secondary_color1: #52476D;
+    --secondary_color2: #5B5272;
+    --secondary_color3: #7E51E7;
+    --secondary_color4: #DACCFB;
+    --secondary_color5: #AA98D3;
+    --secondary_color6: #36275A;
+    --secondary_color7: linear-gradient(182deg, rgba(0, 0, 0, 0.06) 6.14%, rgba(0, 0, 0, 0) 99.42%);
+    --secondary_color8: linear-gradient(0deg, #FBA133 0%, #FAD122 100%);
+    --norm_red_color: #FB5B5B;
+    --norm_green_color: #18B660;
+    --norm_blue_color: #6EA8F4;
+    --norm_orange_color: #FEAA57;
+    --norm_Purple_color: #B659FE;
+    --norm_hint_color: #FDB328;
+    --button_dis: #443E53;
+    --text_primary: #F9FAFB;
+    --text_secondary: #989CAE;
+    --text_tertiary: #8E7EB3;
+    --text_inverse: #FFFFFF;
+    --text_btn_main: #22143B;
+    --text_disabled: #716981;
+    --text_placeholder: #76669A;
+    --bg_color_L1: #1B1034;
+    --bg_color_L2: #261945;
+    --bg_color_L3: #342655;
+    --bg_color_L4: #433466;
+    --Stroke_color: #36275A;
+    --Dividing_line_color: #53496B;
+    --progress_bar: linear-gradient(270deg, #F8A956 0%, #D4762A 100%);
+    --box_shadow_1: 0 4px 4px 0 rgba(3, 17, 36, 0.25);
+    --score-digit-color: linear-gradient(180deg, #FBCD67 16.27%, #E7BE6C 27.59%, #FBF9C8 40.92%, #F9F2A4 52.49%, #C49954 62.03%, #D29D4D 68.28%, #FEE777 74.86%, #BA8741 79.39%, #B6672E 84.94%);
+    --champion1: #ECC731;
+    --champion2: #80B1F2;
+    --champion3: #C78672;
+    --champion-bg: #2E3847;
+    --tips-color: #555965;
+    --text_color_L1: var(--text_primary);
+    --text_color_L4: var(--text_btn_main);
+    --main_gradient-color: var(--main_gradient_color);
+    --norm_bule-color: var(--norm_blue_color);
+    --norm_red-color: var(--norm_red_color);
+    --norm_orange-color: var(--norm_orange_color);
+    --norm_green-color: var(--norm_green_color);
+    --norm_Purple-color: var(--norm_Purple_color);
+    --norm_secondary-color: var(--norm_orange_color);
+    --sheet_nva_color: var(--main_color);
+    --light-main_gradient-color: var(--main_gradient_color);
+    --text_color_L2: var(--text_tertiary);
+    --main-color: var(--main_color);
+    --main_gradient-color2: linear-gradient(0deg, #FFD35C 0%, #BF8307 100%);
+    --Dividing-line_color: var(--Dividing_line_color);
+    --button_dis_color: var(--button_dis);
+    --Secondary_moto_Color9: #E4BB53;
+    --Secondary_moto_Color8: #54492E;
+    --turntable-glow-color: #F15542;
+}
+
+.box_shadow {
+    box-shadow: 0 4px 28px 0 rgba(56, 58, 76, 0.03);
+}
+
+.box_shadow_1 {
+    box-shadow: var(--box_shadow_1);
+}
+
+.box_shadow_2 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.25);
+}
+
+.text_shadow {
+    text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+.btn_main_style {
+    background: var(--main_gradient_color, linear-gradient(180deg, #FFD35C 0%, #BF8307 100%));
+    box-shadow: 0 8px 8px 0 #FFF293 inset, 0 2px 5px 0 rgba(0, 0, 0, 0.2);
+}
+
+.btn_orange_style {
+    background: var(--norm_orange_color);
+}
+
+.btn_Secondary_style {
+    background: var(--bg_color_L1, #1B1034);
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25), 0 2px 0 0 #36275A inset;
+}
+
+.bottom_mix_style {
+    background: var(--bg_color_L2, #261945);
+    box-shadow: 0 2px 0 0 rgba(255, 255, 255, 0.12) inset, 0 -2px 12px 0 rgba(0, 0, 0, 0.12);
+}
+
+.bottom_nav_style {
+    background: var(--bg_color_L2, #261945);
+    /* bottom_nav_style */
+    box-shadow: 0 2px 0 0 #772608 inset, 0 -2px 12px 0 rgba(0, 0, 0, 0.12);
+}

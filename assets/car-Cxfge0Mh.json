@@ -1,0 +1,95 @@
+{"frames": {
+
+"n_1.png":
+{
+	"frame": {"x":0,"y":0,"w":128,"h":91},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":128,"h":91},
+	"sourceSize": {"w":128,"h":91}
+},
+"n_2.png":
+{
+	"frame": {"x":0,"y":91,"w":128,"h":91},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":128,"h":91},
+	"sourceSize": {"w":128,"h":91}
+},
+"n_3.png":
+{
+	"frame": {"x":0,"y":182,"w":128,"h":91},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":128,"h":91},
+	"sourceSize": {"w":128,"h":91}
+},
+"n_4.png":
+{
+	"frame": {"x":0,"y":273,"w":128,"h":91},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":128,"h":91},
+	"sourceSize": {"w":128,"h":91}
+},
+"n_5.png":
+{
+	"frame": {"x":0,"y":364,"w":128,"h":91},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":128,"h":91},
+	"sourceSize": {"w":128,"h":91}
+},
+"n_6.png":
+{
+	"frame": {"x":0,"y":455,"w":128,"h":91},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":128,"h":91},
+	"sourceSize": {"w":128,"h":91}
+},
+"n_7.png":
+{
+	"frame": {"x":0,"y":546,"w":128,"h":91},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":128,"h":91},
+	"sourceSize": {"w":128,"h":91}
+},
+"n_8.png":
+{
+	"frame": {"x":0,"y":637,"w":128,"h":91},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":128,"h":91},
+	"sourceSize": {"w":128,"h":91}
+},
+"n_9.png":
+{
+	"frame": {"x":0,"y":728,"w":128,"h":91},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":128,"h":91},
+	"sourceSize": {"w":128,"h":91}
+},
+"n_10.png":
+{
+	"frame": {"x":0,"y":819,"w":128,"h":91},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":128,"h":91},
+	"sourceSize": {"w":128,"h":91}
+}},
+"animations": {
+	"n": ["n_1.png","n_2.png","n_3.png","n_4.png","n_5.png","n_6.png","n_7.png","n_8.png","n_9.png","n_10.png"]
+},
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.1",
+	"image": "car.png",
+	"format": "RGBA8888",
+	"size": {"w":128,"h":910},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:9a557327af25bc97e4d2b03062daba5a:fd6ceefa46f2aa5079d553a116f8105b:0cc8a77b70c78c003d18a01f226c6fa5$"
+}
+}

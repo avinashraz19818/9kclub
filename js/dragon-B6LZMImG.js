@@ -1,0 +1,1 @@
+import{ay as n,u as s,br as t,aL as r,am as c,aB as u}from"./index-Dn7WaBp7.js";const _=n({__name:"dragon",setup(m){const e=s(),a=t(),o=()=>{e.push({name:"dragon",query:{gameCode:a.params.gameCode||""}})};return(p,d)=>(c(),r("div",{class:"changlongEnter",onClick:o}))}}),l=u(_,[["__scopeId","data-v-ee235c81"]]);export{l as default};

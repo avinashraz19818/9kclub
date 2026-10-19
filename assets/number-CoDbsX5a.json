@@ -1,0 +1,95 @@
+{"frames": {
+
+"t_1.png":
+{
+	"frame": {"x":1,"y":1,"w":48,"h":48},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":48,"h":48},
+	"sourceSize": {"w":48,"h":48}
+},
+"t_2.png":
+{
+	"frame": {"x":51,"y":1,"w":48,"h":48},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":48,"h":48},
+	"sourceSize": {"w":48,"h":48}
+},
+"t_3.png":
+{
+	"frame": {"x":101,"y":1,"w":48,"h":48},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":48,"h":48},
+	"sourceSize": {"w":48,"h":48}
+},
+"t_4.png":
+{
+	"frame": {"x":151,"y":1,"w":48,"h":48},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":48,"h":48},
+	"sourceSize": {"w":48,"h":48}
+},
+"t_5.png":
+{
+	"frame": {"x":201,"y":1,"w":48,"h":48},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":48,"h":48},
+	"sourceSize": {"w":48,"h":48}
+},
+"t_6.png":
+{
+	"frame": {"x":251,"y":1,"w":48,"h":48},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":48,"h":48},
+	"sourceSize": {"w":48,"h":48}
+},
+"t_7.png":
+{
+	"frame": {"x":301,"y":1,"w":48,"h":48},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":48,"h":48},
+	"sourceSize": {"w":48,"h":48}
+},
+"t_8.png":
+{
+	"frame": {"x":351,"y":1,"w":48,"h":48},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":48,"h":48},
+	"sourceSize": {"w":48,"h":48}
+},
+"t_9.png":
+{
+	"frame": {"x":401,"y":1,"w":48,"h":48},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":48,"h":48},
+	"sourceSize": {"w":48,"h":48}
+},
+"t_10.png":
+{
+	"frame": {"x":451,"y":1,"w":48,"h":48},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":48,"h":48},
+	"sourceSize": {"w":48,"h":48}
+}},
+"animations": {
+	"t": ["t_1.png","t_2.png","t_3.png","t_4.png","t_5.png","t_6.png","t_7.png","t_8.png","t_9.png","t_10.png"]
+},
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.1",
+	"image": "number.png",
+	"format": "RGBA8888",
+	"size": {"w":500,"h":50},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:c639732ccf8164ae9bafa68db5cc355b:2eefca8f939aa5aae5b09af7f9b53621:508720d883ff213f9536efb7456c155b$"
+}
+}

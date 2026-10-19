@@ -1,0 +1,1 @@
+const i=(t,n)=>{const r=performance.now();let e;const a=s=>{s-r>=n?t():e=requestAnimationFrame(a)};return e=requestAnimationFrame(a),()=>cancelAnimationFrame(e)},m="/images/red_pack-CnXS5jgk.webp";export{m as r,i as u};

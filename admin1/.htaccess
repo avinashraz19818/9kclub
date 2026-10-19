@@ -1,0 +1,19 @@
+Options -Indexes
+DirectoryIndex index.php
+
+# Keep the panel independent from the public SPA rewrite rules. This file moves
+# with the folder, so admin1 can be renamed to any normal URL-safe folder name.
+RewriteEngine Off
+
+<FilesMatch "^(?:lib|actions)\.php$">
+  Require all denied
+</FilesMatch>
+
+<FilesMatch "^(?:error_log|.*\.log|\.env.*)$">
+  Require all denied
+</FilesMatch>
+
+<IfModule mod_headers.c>
+  Header always set X-Robots-Tag "noindex, nofollow, noarchive"
+  Header always set Cache-Control "no-store, no-cache, must-revalidate"
+</IfModule>

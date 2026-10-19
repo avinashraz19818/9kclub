@@ -1,0 +1,1 @@
+import{m as y,J as i,A as u}from"./index-Dn7WaBp7.js";function l({source:o}={source:void 0}){const{t}=y(),{text:s,copy:p,copied:a,isSupported:n}=i({source:o,legacy:!0}),c=u();return{text:s,copy:async e=>{await p(e||(o==null?void 0:o.value)),c.success(t("t1253"))},copied:a,isSupported:n}}export{l as u};

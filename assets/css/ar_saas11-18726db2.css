@@ -1,0 +1,214 @@
+@charset "UTF-8";
+:root:root {
+  --van-primary-color: var(--main_color);
+  --van-tabbar-item-active-color: var(--main_color);
+  --van-tabbar-item-text-color: var(--text_color_L2);
+  --van-sidebar-text-color: var(--main-color);
+  --van-picker-background: var(--bg_color_L3);
+  --van-picker-option-text-color: var(--text_color_L2);
+  --van-picker-confirm-action-color: var(--main-color);
+  --van-checkbox-checked-icon-color: var(--main-color);
+  --van-checkbox-label-color: var(--text_color_L2);
+  --van-field-input-text-color: var(--text_color_L1);
+  --van-radio-checked-icon-color: var(--main-color);
+  --van-grid-item-content-background: var(--bg_color_L1);
+  --van-text-color: var(--text_color_L1);
+  --van-dialog-background: var(--bg_color_L2);
+  --van-circle-color: var(--main-color);
+  --van-circle-layer-color: var(--bg_color_L3);
+  --van-calendar-range-edge-background: var(--main-color);
+  --van-button-primary-background: var(--main_color);
+  --van-button-primary-border-color: var(--main-color);
+  --van-toast-text-color: var(--main-color);
+}
+
+.van-picker-column__item.van-picker-column__item--selected {
+  color: unset;
+}
+
+.van-skeleton .van-skeleton-title {
+  background: var(--text_inverse);
+  opacity: 0.1;
+}
+.van-skeleton .van-skeleton-paragraph {
+  background: var(--text_inverse);
+  opacity: 0.1;
+}
+
+:root {
+  /* ================= 主色 ================= */
+  --main_color: #F97316;
+  --main_gradient_color: linear-gradient(180deg, #FFAF2D 0%, #F97316 100%);
+  --main_gradient_1: #FFAF2D;
+  --main_gradient_2: #F97316;
+  --gamesaas_ticket_bg1: var(--main_gradient_1);
+  --gamesaas_ticket_bg2: var(--main_gradient_2);
+  /* ================= 辅助色 ================= */
+  --secondary_color1: #D2E4FF;
+  --secondary_color2: #1F2937;
+  --secondary_color3: #14B8A6;
+  --secondary_color4: #3BFFE9;
+  --secondary_color5: #7F9AB5;
+  --secondary_color6: #2E3C4E;
+  /* 装饰纹理层：色块 10019:67056 的实际填充 */
+  --secondary_color7: linear-gradient(182.04deg, rgba(0, 0, 0, 0.06) 6.14%, rgba(0, 0, 0, 0) 99.42%);
+  --secondary_color8: linear-gradient(180deg, #536177 0%, #43536C 49.52%, #374151 100%);
+  /* ================= 功能色 ================= */
+  --norm_red_color: #FB5B5B;
+  --norm_green_color: #18B660;
+  --norm_blue_color: #6EA8F4;
+  --norm_orange_color: #FF9933;
+  --norm_Purple_color: #B659FE;
+  --norm_hint_color: #FDB328;
+  /* 设计稿值 */
+  --button_dis: #3C4754;
+  /* ================= 文字 ================= */
+  --text_primary: #FFFFFF;
+  --text_secondary: #9CA3AF;
+  --text_tertiary: #627088;
+  --text_inverse: #FFFFFF;
+  --text_btn_main: #F1F7FF;
+  --text_disabled: #5E6C7A;
+  --text_placeholder: #2B3855;
+  /* ================= 背景 ================= */
+  --bg_color_L1: #0F1421;
+  --bg_color_L2: #12192A;
+  --bg_color_L3: #19253F;
+  --bg_color_L4: #030516;
+  /* ================= 结构 ================= */
+  --Stroke_color: #2B4773;
+  --Dividing_line_color: #253248;
+  --home_stroke2: #244CD0;
+  --home_wheel: radial-gradient(45.65% 100% at 50% 0%, rgba(33, 33, 36, 0.70) 0%, #080F28 100%);
+  /* ================= 进度条 ================= */
+  --progress_bar: linear-gradient(90deg, #14B8A6 0%, #00E422 100%);
+  /* ================= 投影 ================= */
+  --box_shadow_1: 0 8px 16px 0 rgba(3, 39, 11, 0.08);
+  /* ================= Jackpot ================= */
+  --score-digit-color: linear-gradient(180deg,
+      #FBCD67 16.27%,
+      #E7BE6C 27.59%,
+      #FBF9C8 40.92%,
+      #F9F2A4 52.49%,
+      #C49954 62.03%,
+      #D29D4D 68.28%,
+      #FEE777 74.86%,
+      #BA8741 79.39%,
+      #B6672E 84.94%);
+  --champion1: #ECC731;
+  --champion2: #80B1F2;
+  --champion3: #C78672;
+  --champion-bg: #2E3847;
+  --tips-color: #555965;
+  --text_color_L1: var(--text_primary);
+  --text_color_L4: var(--text_btn_main);
+  --main_gradient-color: var(--main_gradient_color);
+  --norm_bule-color: var(--norm_blue_color);
+  --norm_red-color: var(--norm_red_color);
+  --norm_orange-color: var(--norm_orange_color);
+  --norm_green-color: var(--norm_green_color);
+  --norm_Purple-color: var(--norm_Purple_color);
+  --norm_secondary-color: var(--norm_orange_color);
+  --sheet_nva_color: var(--main_color);
+  --light-main_gradient-color: var(--main_gradient_color);
+  --text_color_L2: var(--text_tertiary);
+  --main-color: var(--main_color);
+  --main_gradient-color2: linear-gradient(0deg, #FFAF2D 0%, #F97316 100%);
+  --Dividing-line_color: var(--Dividing_line_color);
+  --button_dis_color: var(--button_dis);
+  --turntable-glow-color: #F97316;
+  --turntable_money_text_color: var(--secondary_color1);
+  --s11_home_stroke: #7C93B7;
+  --s11_nav_bg: rgba(22, 31, 51, 0.3);
+  --s11_nav_border: #4F5C72;
+  --s11_nav_shadow: rgba(0, 0, 0, 0.3);
+  --s11_track: #3B4759;
+  --s11_notice_bg: linear-gradient(90deg, #323A45 0%, #1F2937 100%);
+  --s11_rule: #4D5D78;
+  --s11_scroll_bg: linear-gradient(90deg, #374151 0%, #6F809C 50.51%, #374151 100%);
+  --s11_scroll_inner: #A9B4C5;
+  --s11_card_mask: linear-gradient(0deg, rgba(0, 0, 0, 0.85) 20%, rgba(0, 0, 0, 0.2) 100%);
+  --s11_banner_shadow: rgba(0, 0, 0, 0.25);
+  --s11_cat_bg: linear-gradient(-2.34deg, rgba(69, 90, 116, 0.6) 2.49%, rgba(46, 60, 78, 0.6) 41.48%, rgba(31, 41, 55, 0.6) 96.78%);
+  --s11_cat_badge: linear-gradient(180deg, #374151 0%, #43536C 49.82%, #536177 100%);
+  --s11_cat_bg_first: linear-gradient(-2.34deg, rgba(246, 203, 65, 0.9) 2.49%, rgba(255, 175, 45, 0.9) 41.48%, rgba(249, 115, 22, 0.9) 96.78%);
+  --s11_cat_stroke_first: #FFCE61;
+  --s11_cat_badge_first: linear-gradient(180deg, #FBAA2A 0%, #FBAA2A 49.82%, #F6CE4E 100%);
+  --s11_cat_badge_first_text: #BA4C00;
+  --s11_cat_title_stroke: #111827;
+  --s11_sec_btn_bg: #333940;
+  --s11_sec_btn_bg_dis: rgba(50, 55, 56, 0.5);
+  --s11_sec_arrow_dis: #434D4F;
+  --s11_game_down_mask: rgba(0, 0, 0, 0.35);
+  --s11_tab_chest_glow: linear-gradient(180deg, #FF9851 0%, #F97316 35.58%, #A64D0F 65.87%, #F97316 100%);
+  --s11_tab_dock_bg: linear-gradient(180deg, rgba(41, 53, 70, 0.6) 0%, rgba(0, 0, 0, 0.6) 22.76%);
+  --s11_tab_dock_border: #7D3300;
+  --share_page_display: flex;
+  --share_apps_display: contents;
+  --share_text_order: 3;
+  --share_icons_order: 0;
+  --share_invite_order: 1;
+  --share_section_order: 2;
+  --save_image_order: 3;
+  --share_reward_cols: repeat(4, 1.8133rem);
+  --share_reward_col_gap: 0.6rem;
+  --share_reward_justify: center;
+  --share_reward_row_gap: 0.5333rem;
+  --share_reward_w: 1.8133rem;
+  --share_reward_h: 2.4rem;
+  --share_reward_pb: 0;
+  --share_box_bg_size: 1.7486rem;
+  --share_box_bg_pos: center 0.4591rem;
+  --share_open_bg_size: 1.8133rem;
+  --share_open_bg_pos: center 0.4267rem;
+  --share_arrow_w: 0.2133rem;
+  --share_arrow_h: 0.36rem;
+  --share_arrow_top: 1.4067rem;
+  --share_arrow_left: calc(100% + 0.1867rem);
+  --share_arrow_right: calc(100% + 0.1867rem);
+  --share_arrow_down_top: calc(100% + 0.0867rem);
+  --share_arrow_color: var(--text_tertiary);
+  --share_coin_open_filter: none;
+}
+
+.box_shadow_1 {
+  box-shadow: var(--box_shadow_1);
+}
+
+.text_shadow {
+  /* 设计变量 text_shadow：#000000 50%，offset (0,2)，blur 1 */
+  text-shadow: 0 2px 1px rgba(0, 0, 0, 0.5);
+}
+
+.btn_main_style {
+  /* 设计稿的主按钮只给了渐变底，内阴影沿用 darkBlue */
+  background: var(--main_gradient_color, linear-gradient(180deg, #FFAF2D 0%, #F97316 100%));
+  box-shadow: 0 -4px 4px 0 rgba(0, 0, 0, 0.2) inset;
+}
+
+.btn_orange_style {
+  background: var(--norm_orange_color);
+}
+
+.btn_Secondary_style {
+  border-radius: 8px;
+  background: var(--bg_color_L1, #0F1421);
+  /* 设计变量 btn_Secondary_style：INNER #000000 10% (0,2)，DROP #000000 13% (0,4) blur 4 */
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.13), 0 2px 0 0 rgba(0, 0, 0, 0.1) inset;
+}
+
+.bottom_mix_style {
+  border-radius: 8px;
+  background: var(--bg_color_L2, #12192A);
+  /* 设计变量 bottom_mix_style：INNER #F3F9FF 45% (0,2)，DROP #000000 12% (0,-2) blur 12 */
+  box-shadow: 0 2px 0 0 rgba(243, 249, 255, 0.45) inset, 0 -2px 12px 0 rgba(0, 0, 0, 0.12);
+}
+
+.bottom_nav_style {
+  border-radius: 8px;
+  background: var(--bg_color_L2, #12192A);
+  /* 设计变量 bottom_nav_style：INNER #00A151 20% (0,2)，DROP #000000 12% (0,-2) blur 12。
+     内高光是绿色 #00A151，与深蓝+橙的主色系不搭，疑似色彩模板未同步更新的残留，
+     此处先照抄设计变量，待设计确认后再决定是否改为主色橙。 */
+  box-shadow: 0 2px 0 0 rgba(0, 161, 81, 0.2) inset, 0 -2px 12px 0 rgba(0, 0, 0, 0.12);
+}

@@ -1,0 +1,95 @@
+{"frames": {
+
+"motoR_1.png":
+{
+	"frame": {"x":1,"y":1,"w":210,"h":123},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":27,"w":210,"h":123},
+	"sourceSize": {"w":210,"h":150}
+},
+"motoR_2.png":
+{
+	"frame": {"x":1,"y":126,"w":210,"h":123},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":27,"w":210,"h":123},
+	"sourceSize": {"w":210,"h":150}
+},
+"motoR_3.png":
+{
+	"frame": {"x":213,"y":1,"w":210,"h":123},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":27,"w":210,"h":123},
+	"sourceSize": {"w":210,"h":150}
+},
+"motoR_4.png":
+{
+	"frame": {"x":213,"y":126,"w":210,"h":123},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":27,"w":210,"h":123},
+	"sourceSize": {"w":210,"h":150}
+},
+"motoR_5.png":
+{
+	"frame": {"x":425,"y":1,"w":210,"h":123},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":27,"w":210,"h":123},
+	"sourceSize": {"w":210,"h":150}
+},
+"motoR_6.png":
+{
+	"frame": {"x":425,"y":126,"w":210,"h":123},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":27,"w":210,"h":123},
+	"sourceSize": {"w":210,"h":150}
+},
+"motoR_7.png":
+{
+	"frame": {"x":637,"y":1,"w":210,"h":123},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":27,"w":210,"h":123},
+	"sourceSize": {"w":210,"h":150}
+},
+"motoR_8.png":
+{
+	"frame": {"x":637,"y":126,"w":210,"h":123},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":27,"w":210,"h":123},
+	"sourceSize": {"w":210,"h":150}
+},
+"motoR_9.png":
+{
+	"frame": {"x":849,"y":1,"w":210,"h":123},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":27,"w":210,"h":123},
+	"sourceSize": {"w":210,"h":150}
+},
+"motoR_10.png":
+{
+	"frame": {"x":849,"y":126,"w":210,"h":123},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":27,"w":210,"h":123},
+	"sourceSize": {"w":210,"h":150}
+}},
+"animations": {
+	"motoR": ["motoR_1.png","motoR_2.png","motoR_3.png","motoR_4.png","motoR_5.png","motoR_6.png","motoR_7.png","motoR_8.png","motoR_9.png","motoR_10.png"]
+},
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.1",
+	"image": "motoR.png",
+	"format": "RGBA8888",
+	"size": {"w":1060,"h":250},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:cf1b6240e0b7532116ef01d93b400b17:7597bc905d6933502242363d29e05691:49d3819dd635255414ad5485b603d2ae$"
+}
+}
