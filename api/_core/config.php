@@ -23,4 +23,7 @@ define('APP_TIMEZONE', 'Asia/Kolkata');
 // true = project/demo virtual wallet only. Real-money payment gateway/live settlement connected nahi hai.
 define('DEMO_MODE', true);
 
+// Wingo period offset: 1 = abhi jo chal raha hai usse 1 period piche karke chalna hai
+define('WINGO_PERIOD_OFFSET', 1);
+
 @date_default_timezone_set(APP_TIMEZONE);

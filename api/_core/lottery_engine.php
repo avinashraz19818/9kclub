@@ -68,12 +68,17 @@ function le_get_settings(string $gameCode): array
 
 function le_calc_issue_number(string $gameCode, int $timestamp): string
 {
+    $interval = le_game_interval($gameCode);
+    if (le_is_wingo($gameCode)) {
+        // Wingo game ko 1 period piche karke chalna hai (current running period se 1 period piche)
+        $periodOffset = defined('WINGO_PERIOD_OFFSET') ? (int)WINGO_PERIOD_OFFSET : 1;
+        $timestamp -= ($periodOffset * $interval);
+    }
     $dt = new DateTime('@' . $timestamp);
     $dt->setTimezone(new DateTimeZone('UTC'));
     $ymd = $dt->format('Ymd');
     $sec = (int)$dt->format('H') * 3600 + (int)$dt->format('i') * 60 + (int)$dt->format('s');
     
-    $interval = le_game_interval($gameCode);
     $periodIdx = intdiv($sec, $interval) + 1;
     
     if (stripos($gameCode, '30S') !== false) {
